@@ -42,7 +42,7 @@ Sub GetSetDocVars(ByVal suppID As String)
     Set rs = New ADODB.Recordset
     
     'Connection string. All that's needed is a data source named P21.
-    sConString = "Data Source=Prophet21;Server=giga-p21sql;Database=Prophet21;Trusted_Connection=True;"
+    sConString = "Data Source=[REDACTED];Server=[REDACTED];Database=[REDACTED];Trusted_Connection=True;"
     
     'This "resets" all variable values. If this is omitted, the program
     'will complain and say that the variables already exist.
